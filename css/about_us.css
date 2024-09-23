@@ -1,0 +1,84 @@
+.chef-guide h1 {
+     font-size: 3rem;
+}
+
+.info_chef {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_chef img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.info_chef h5 {
+    margin: 0 4rem 0 1rem;
+    white-space: nowrap;
+}
+
+
+.guide_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.guide_content p {
+    width: 76%;
+    text-align: center;
+}
+
+.chef-guide img {
+   border-radius: 1rem;
+}
+.question_about {
+    padding: 3rem 5rem;
+    display: flex;
+}
+.question_about img {
+    width: 59%;
+    height: 376px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.question_about p {
+    width: 89%;
+    color: #00000099;
+    margin-bottom: 5rem;
+
+}
+.question_about h2 {
+    font-size: 1.3rem;
+}
+.question_about h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    width: 90%;
+
+}
+
+.people {
+    width: 66%;
+}
+
+.share_networks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 58%;
+}
+
+.icon_networks {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}

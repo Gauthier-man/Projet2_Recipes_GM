@@ -1,0 +1,72 @@
+.contact_us h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.contact_us img {
+  width: 320px;
+  object-fit: cover;
+  background: linear-gradient(180deg, #e7f9fd00 0%, #e7f9fd 100%);
+  border-radius: 2rem;
+}
+
+.contact_content {
+  display: flex;
+  gap: 2rem;
+}
+
+label {
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #00000099;
+}
+
+.input-field {
+  width: 79%;
+  height: 49px;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  border: 1px solid #0000001a;
+  color: #00000099;
+}
+
+#message {
+  width: 800px;
+  height: 178px;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  border: 1px solid #0000001a;
+}
+
+.form_contact {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  gap: 20px;
+  align-items: start;
+}
+
+.form_contact h5 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #00000099;
+}
+.btn-sub {
+  width: 173px;
+  height: 57px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn-sub:hover {
+  background-color: #45a049;
+}

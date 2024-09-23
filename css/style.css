@@ -1,0 +1,544 @@
+#info-recette {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-left: 5%;
+  /* margin-left: 5%;
+  justify-content: space-around; */
+}
+
+#info-recette .tag {
+  width: 150px;
+  height: 100%;
+  /* background-color: #dbeef1; */
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#info-recette .tag img {
+  width: 25px;
+  height: 25px;
+  margin: auto 0;
+  justify-content: center;
+}
+
+#info-recette .tag p {
+  margin: auto;
+  padding-left: 0.5rem;
+  white-space: nowrap; /* Empêcher le texte de dépasser et d'aller à la ligne */
+}
+
+#voir-plus-recette {
+  width: 85%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 5%;
+}
+
+#user {
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#user img {
+  width: 60px;
+  height: 60px;
+}
+
+#voir-plus-recette button {
+  width: 190px;
+  height: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#user h5 {
+  width: auto;
+  height: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+#user p {
+  width: auto;
+  position: absolute;
+  height: auto;
+  margin-top: 33px;
+  font-size: 9pt;
+}
+
+#voir-plus-recette button p {
+  margin: auto 0;
+  float: left;
+}
+
+#voir-plus-recette button img {
+  width: 25px;
+  height: 25px;
+  margin: auto 0;
+}
+
+.recipe-item img {
+  width: 20px;
+  height: 20px;
+}
+
+.recipe-item {
+  display: flex;
+  align-items: center;
+  /* background-color: white; */
+  /* padding: 5px; */
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border-radius: 2rem;
+  gap: 0.5rem;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#slider {
+  border-radius: 2rem;
+  display: flex;
+  height: 600px;
+}
+
+#slider h1 {
+  font-size: 3.5rem;
+  /* width: 73%; */
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#slider p {
+  /* width: 90%; */
+  margin-left: 5%;
+  text-align: justify;
+  margin-right: 5%;
+}
+
+.container_spicy {
+  /* padding: 3rem; */
+  background-color: #e7fafe;
+  border-radius: 2rem 0 0 2rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.picture_chicken img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#cercle_pouce {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 25px;
+}
+
+#photo_slider {
+  width: 50%;
+  /* height: 100%; */
+  border-radius: 0 50px 50px 0;
+  object-fit: cover;
+}
+
+#categories h2 {
+  font-size: 2rem;
+}
+
+.meal_container {
+  display: flex;
+  justify-content: space-around;
+}
+.food-card {
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 0) 0%,
+    rgba(228, 230, 241, 1) 100%
+  );
+  border-radius: 2rem;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: 200px;
+}
+
+.food-card img {
+  width: 60%;
+}
+.clear_green {
+  background: linear-gradient(
+    180deg,
+    rgba(112, 130, 70, 0) 0%,
+    rgba(112, 130, 70, 0.1) 100%
+  );
+}
+
+.green {
+  background: linear-gradient(
+    180deg,
+    rgba(108, 198, 63, 0) 0%,
+    rgba(108, 198, 63, 0.1) 100%
+  );
+}
+
+.clear_red {
+  background: linear-gradient(
+    180deg,
+    rgba(204, 38, 27, 0) 0%,
+    rgba(204, 38, 27, 0.1) 100%
+  );
+}
+
+.clear_orange {
+  background: linear-gradient(
+    180deg,
+    rgba(240, 158, 0, 0) 0%,
+    rgba(240, 158, 0, 0.1) 100%
+  );
+}
+
+.clear_grey {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
+}
+
+.grey {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
+}
+
+.text_categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text_categories h5 {
+  background-color: #e7fafe;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.text_simple {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_simple h1 {
+  font-size: 2rem;
+}
+
+.text_simple p {
+  width: 55%;
+  text-align: center;
+}
+
+.recipe-details {
+  background-color: #e8f9fd;
+  width: 350px;
+  height: 409px;
+  border-radius: 2rem;
+}
+
+.recipe-details img {
+  width: 90%;
+  object-fit: cover;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+.recipe-details h3 {
+  margin-left: 5%;
+}
+
+.container_recipe_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.chef-kitchen img {
+  width: 100%;
+  object-fit: cover;
+}
+.chef-promo {
+  width: 31%;
+}
+.chef-promo h1 {
+  font-size: 2rem;
+}
+
+.chef-promo p {
+  font-size: 0.8rem;
+}
+
+.btn {
+  width: 173px;
+  height: 57px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.post-insta {
+  background: linear-gradient(180deg, #e7f9fd00 0%, #e7f9fd 100%);
+}
+
+.instagram_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram_content h1 {
+  font-size: 2.1rem;
+}
+
+.instagram_content p {
+  width: 52%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.instagram_picture {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.5rem;
+}
+
+.photo img {
+  width: 85%;
+  object-fit: cover;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+.most-viewed h1 {
+  font-size: 2rem;
+}
+
+.most-viewed p {
+  font-size: 0.8rem;
+}
+
+.text_viewed {
+  display: flex;
+  align-items: center;
+}
+
+.recipe-card {
+  display: flex;
+  flex-wrap: wrap; /* Permet de passer à la ligne suivante si nécessaire */
+  justify-content: space-between; /* Espace les cartes uniformément */
+  gap: 20px; /* Optionnel : espacement entre les cartes */
+}
+
+.recipe_content {
+  border-radius: 8px; /* Optionnel : coins arrondis */
+  box-sizing: border-box; /* Assure que padding et border ne débordent pas de la taille définie */
+  width: calc(
+    (100% - 60px) / 4
+  ); /* Divise la largeur totale du conteneur en quatre parties égales */
+}
+
+.recipe_info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.recipe_info img {
+  width: 25px;
+  height: 25px;
+}
+
+.recipe-card h4 {
+  margin-bottom: 0;
+}
+
+.recipe_content img {
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.inbox_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter {
+  background-color: #e7f9fd;
+  border-radius: 2rem;
+  height: 407px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.newsletter h1 {
+  font-size: 2.6rem;
+  margin-top: 4rem;
+}
+
+.newsletter p {
+  width: 44%;
+  text-align: center;
+  margin-top: 0;
+}
+
+.newsletter_container {
+  width: 609px;
+  margin: auto;
+}
+
+.email-subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 2rem;
+}
+
+#email {
+  border: none;
+  width: 59%;
+  height: 80px;
+  border-radius: 1rem;
+  padding-left: 2rem;
+}
+
+.position {
+  position: absolute;
+  left: 317px;
+}
+
+.bottom-left-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-right-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  width: 300px; /* Ajustez la taille selon l'effet désiré */
+  height: 300px;
+}
+
+.mini_sheet {
+  position: absolute;
+  width: 66.85px;
+  height: 90.96px;
+  top: 208px;
+  left: 974px;
+  transform: rotate(-31deg);
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_content {
+  display: flex;
+  justify-content: space-between; /* Espace le titre et les icônes */
+  align-items: center;
+  width: 100%; /* Prend toute la largeur disponible */
+  padding: 10px 0; /* Ajoute un peu d'espace vertical */
+}
+
+.info_content h5 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #00000099;
+  margin: 0;
+}
+
+.info_content span {
+  color: red; /* Pour garder le rouge de Webflow */
+}
+
+#icon_social {
+  display: flex;
+  gap: 1.5rem; /* Espacement entre les icônes */
+  margin-left: -11%;
+}
+
+.fa-brands {
+  font-size: 20px; /* Taille des icônes */
+  color: #000; /* Couleur noire pour les icônes */
+}
+
+footer {
+  width: 92%;
+  margin: auto;
+}
+
+footer h5 {
+  margin: 0; /* Supprime les marges par défaut du h5 */
+  flex: 1; /* Permet au texte de prendre tout l'espace disponible à gauche */
+  text-align: center; /* Centre le texte */
+  font-size: 1rem;
+}
+
+footer nav {
+  /* width: auto; */
+  white-space: nowrap;
+}
+
+footer nav ul {
+  gap: 2rem;
+}

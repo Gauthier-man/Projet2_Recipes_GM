@@ -1,0 +1,39 @@
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav {
+    width: 35%;
+    height: 50px;
+    /* background-color: cornflowerblue; */
+  }
+  
+  nav ul {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    /* font-weight: bold; */
+    color: inherit;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+
+  #rs {
+    width: 12%;
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-between;
+  }
