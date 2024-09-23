@@ -114,6 +114,19 @@
   margin-left: 5%;
 }
 
+.heart {
+  width: 43px;
+  height: 43px;
+  background-color: white;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ff6363;
+}
+
 #slider {
   border-radius: 2rem;
   display: flex;
